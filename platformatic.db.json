@@ -1,0 +1,17 @@
+{
+  "server": {
+    "hostname": "0.0.0.0",
+    "port": 3000
+  },
+  "core": {
+    "connectionString": "postgres://postgres:password@localhost:5432/landing_page_db"
+  },
+  "db": {
+    "migrations": {
+      "dir": "migrations"
+    }
+  },
+  "plugins": {
+    "paths": ["plugins"]
+  }
+}
